@@ -10,7 +10,7 @@ There are 2 files:
 
 Installation
 
-Environment with python will required for the code execution. Current version of python tested is version 3.10. Click on the link below to download Python:
+Environment with python will required for the code execution. Current version of python tested is version 3.10. Click on the link to download Python:
 [Installation of python](https://www.python.org/downloads/)
 
 For the python libraries, Bin2Dec is developed with Python Standard Libraries. Python Standard Libraries usually comes together with Python installation, thus no extra steps will be required. (If there is error with missing libraries, you can try pip install the missing libraries.)
