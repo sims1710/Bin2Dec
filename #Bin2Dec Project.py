@@ -17,8 +17,9 @@ while user_input_size == 0:
     user_input = input("Please input 1 - 8 bit binary digits: ")
     user_input_size = len(user_input)
 
-# Length check
-while user_input_size < 1 or user_input_size > 8:
+# Length check 
+# PLEASE COMMENT THIS PART TO CONVERT MORE BINARY DIGITS (> 8) TO DENARY
+while user_input_size > 8:
     print("The app can only convert up to 8 bits. Please input a 1 - 8 bit binary digits: ")
     user_input = input("Please input 1 - 8 bit binary digits: ")
 
