@@ -1,24 +1,5 @@
 #Bin2Dec Project
 
-#GUI
-import tkinter as tk
-
-
-# Create the main window
-root = tk.Tk()
-root.title("Binary to Decimal Converter")
-
-# Create a label
-label = tk.Label(root, text="Convert!")
-label.pack(pady=10)
-
-# Create a button
-button = tk.Button(root, text="Say Hello", command=say_hello)
-button.pack(pady=10)
-
-# Run the GUI loop
-root.mainloop()
-
 # Initial Variable Declarations
 total = 0
 index = 0
