@@ -8,25 +8,25 @@ total = 0
 index = 0
 
 # Take in User Input and convert for processing
-user_input = input("Please input 1 - 8 bit binary digits:")
+user_input = input("Please input 1 - 8 bit binary digits: ")
 user_input_size = len(user_input)
 
 # Presence Check
 while user_input_size == 0:
-    print("The input cannot be empty. Please input a 1 - 8 bit binary digits:")
-    user_input = input("Please input 1 - 8 bit binary digits:")
+    print("The input cannot be empty. Please input a 1 - 8 bit binary digits: ")
+    user_input = input("Please input 1 - 8 bit binary digits: ")
     user_input_size = len(user_input)
 
 # Length check
 while user_input_size < 1 or user_input_size > 8:
-    print("The app can only convert up to 8 bits. Please input a 1 - 8 bit binary digits:")
-    user_input = input("Please input 1 - 8 bit binary digits:")
+    print("The app can only convert up to 8 bits. Please input a 1 - 8 bit binary digits: ")
+    user_input = input("Please input 1 - 8 bit binary digits: ")
 
 # Validity check
 while index <= user_input_size - 1:
     if user_input[index] != "0" and user_input[index] != "1":
-        print("The app can only convert binary digits. Please input a 1 - 8 bit binary digits:")
-        user_input = input("Please input 1 - 8 bit binary digits:")
+        print("The app can only convert binary digits. Please input a 1 - 8 bit binary digits: ")
+        user_input = input("Please input 1 - 8 bit binary digits: ")
         user_input_size = len(user_input)
         index = 0
     else:
